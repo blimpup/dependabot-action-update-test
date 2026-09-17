@@ -39,7 +39,7 @@
      name: Terrateam Action
      environment: '${{ github.event.inputs.environment }}'
      steps:
-       - uses: actions/checkout@v4
+       - uses: actions/checkout@v7
        - name: Run Terrateam Action
          id: terrateam
          uses: terrateamio/action@b8b914e30da1feae57c891d275fda3285dbba2c9
